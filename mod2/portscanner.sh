@@ -5,22 +5,22 @@ portfile=$2
 
 # error checking
 if [[ $hostfile != *".txt" ]]; then
-  printf "Please use a .txt file for hostfile and portfile." && \
+  printf "Please use a .txt file for hostfile and portfile.\nUsage: ./portscanner.sh (nameofhostfile).txt (nameofportfile).txt" && \
   exit 1
 fi
 
 if [[ $portfile != *".txt" ]]; then
-  printf "Please use a .txt file for hostfile and portfile." && \
+  printf "Please use a .txt file for hostfile and portfile.\nUsage: ./portscanner.sh (nameofhostfile).txt (nameofportfile).txt" && \
   exit 1
 fi
 
 if [[ ! -e $hostfile ]]; then
-  printf "Error: File (hosts) does not exist in current directory." && \
+  printf "Error: File (hosts) does not exist in current directory.\nUsage: ./portscanner.sh (nameofhostfile).txt (nameofportfile).txt" && \
   exit 1
 fi
 
 if [[ ! -e $portfile ]]; then
-  printf "Error: File (ports) does not exist in current directory." && \
+  printf "Error: File (ports) does not exist in current directory.\nUsage: ./portscanner.sh (nameofhostfile).txt (nameofportfile).txt" && \
   exit 1
 fi
 
