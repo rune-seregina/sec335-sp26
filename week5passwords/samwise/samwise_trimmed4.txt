@@ -2,6 +2,3 @@ Elanor
 Goldilocks
 Primrose
 Ruby
-Lorien
-Mallorn
-Gaffer

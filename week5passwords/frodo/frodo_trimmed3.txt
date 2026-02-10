@@ -2,6 +2,3 @@ Rosie
 Gandalf
 Wizard
 Bolgers
-Boffins
-Brandybucks
-Proudfeet
